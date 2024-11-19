@@ -33,7 +33,7 @@ class AuthService {
   }
 
   void _setLoading(bool loading) {
-    isLoading.value = loading;
+    isLoading.value = false;
   }
 
   void _cleanStates() {
